@@ -1,4 +1,13 @@
 def fizzbuzz()
-	new_array = []
-	Array(1..100)
+	empty = []
+	arr = [*1..100]
+	arr.each do |n|
+		if n % 3 == 0
+			n = "Mined"
+		end
+		empty << n
+	end
+	arr = empty
 end
+
+
