@@ -8,8 +8,8 @@ class TestTddFizzbuzzHomework < Minitest::Test
 	end
 
 	def test_assert_that_function_has_100_elements
-		assert_equal(Array, fizzbuzz().length)
+		assert_equal(100, fizzbuzz().length)
 	end
-	
+
 
 end
