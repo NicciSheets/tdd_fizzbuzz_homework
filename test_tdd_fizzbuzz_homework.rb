@@ -16,5 +16,9 @@ class TestTddFizzbuzzHomework < Minitest::Test
 		assert_equal("Mined", fizzbuzz()[8])
 	end
 
-
+	def test_assert_that_every_5th_element_is_minds
+		assert_equal("Minds", fizzbuzz()[4])
+		assert_equal("Minds", fizzbuzz()[9])
+	end
+	
 end
