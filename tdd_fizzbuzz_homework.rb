@@ -4,6 +4,8 @@ def fizzbuzz()
 	arr.each do |n|
 		if n % 3 == 0
 			n = "Mined"
+		elsif n % 5 == 0
+			n = "Minds"
 		end
 		empty << n
 	end
