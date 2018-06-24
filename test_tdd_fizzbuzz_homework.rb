@@ -13,6 +13,8 @@ class TestTddFizzbuzzHomework < Minitest::Test
 
 	def test_assert_that_every_3rd_element_is_mined
 		assert_equal("Mined", fizzbuzz()[2])
+		assert_equal("Mined", fizzbuzz()[8])
 	end
-	
+
+
 end
